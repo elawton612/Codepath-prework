@@ -1,0 +1,51 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  background-color: #ccccff;
+  color: #006699;
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
+h1 {
+  font-family: verdana, arial, sans-serif;
+  text-align: center;
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+#line1 {
+  color: #3f3775;
+}
+#line2 {
+  color: #1f00ff;
+}
+#line3 {
+  color: #0074ff;
+}
+#line4 {
+  color: #4591ec;
+}
+#line5 {
+  color: #7cb6fc;
+}
+#line6 {
+  color: white;
+}
